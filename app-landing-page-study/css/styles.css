@@ -1,0 +1,48 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	font-family: "Roboto","Arial", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.conteiner{
+	position: relative;
+	width: 1170px;
+	margin: 0 auto;
+}
+.title{
+	width: 400px;
+	font-size: 20px;
+}
+.info{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 600px;
+}
+.mini-info{
+	width: 45%;
+	margin-bottom: 20px;
+}
+.img{
+	position: absolute;
+	right: 0;
+	top: 100px;
+}
+.link{
+	display: block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	background-color: blue;
+	color: white;
+	margin-top:20px;
+	padding: 10px;
+	border-radius: 5px;
+}
